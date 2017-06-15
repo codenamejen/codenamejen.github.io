@@ -1,0 +1,44 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-size: 96px;
+	font-family: Palatino;
+	color: #335577
+}
+
+body {
+	text-align: center;
+	width: 100%;
+	color: #927534;
+	background: #FFFFFF;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#slogan {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+ul {
+	text-align: center;
+	font-size: 30px;
+	font-style: bold;
+}
+a {
+	color: #335577;
+	text-decoration: none;
+	text-align: center;
+	padding: 20px;
+}
+header {
+	background-color: #DEF8FF;
+}
+main {
+	background-color: #DEF8FF;
+}
+
