@@ -1,44 +1,60 @@
 *{
 	padding: 0;
 	margin: 0;
+	box-sizing:border-box;
 }
-
+body {
+	color: rgba(0,0,0,.85);
+	font-size: 18px;
+	font-family: helvetica, arial, sans-serif;
+	line-height:1.3;
+}
+section {
+	padding:5em 0;
+}
+header {
+	background-color: #DEF8FF;
+}
 h1 {
 	font-size: 96px;
 	font-family: Palatino;
 	color: #335577
 }
-
-body {
+ul {
 	text-align: center;
-	width: 100%;
-	color: #927534;
-	background: #FFFFFF;
-	font-size: 18px;
-	font-weight: bold;
+	font-size: 1.5em;
+	font-style: bold;
 }
-
+nav a {
+	color: #335577;
+	display:inline-block;
+	text-decoration: none;
+	text-align: center;
+	padding: 20px;
+}
+.cta {
+	background:#357;
+	color:#fff;
+	display:inline-block;
+	padding:1em 2em;
+	text-decoration: none;
+}
 #slogan {
+	color: #927534;
 	font-weight: bold;
 	font-style: italic;
 	font-size: 48px;
 	margin-bottom: 20px;
 }
-ul {
-	text-align: center;
-	font-size: 30px;
-	font-style: bold;
+#intro {
+	background:url(../images/hike3.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height: 80vh;
+	padding: 2em 0 0 10em;
 }
-a {
-	color: #335577;
-	text-decoration: none;
-	text-align: center;
-	padding: 20px;
+#about {
+	background:#def8ff;
 }
-header {
-	background-color: #DEF8FF;
-}
-main {
-	background-color: #DEF8FF;
-}
+
 
