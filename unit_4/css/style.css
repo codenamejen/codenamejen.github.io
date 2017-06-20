@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Vidolaka');
+@import url('https://fonts.googleapis.com/css?family=Palanquin');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+body {
+	color: #CAD9E8;
+	background-color: #151619;
+	font-size: 18px;
+	font-family: 'Palanquin', sans-serif;
+	line-height: 1.3;
+	font-weight: thin;
+}
+section {
+	padding: 2em 0;
+}
+header {
+	background-color: #000;
+}
+p 	{
+	width: 36em;
+	margin: 0 auto;
+	max-width: 100%
+}
+h1 {
+	font-size: 168px;
+	font-family: 'Vidolaka', serif;
+	color: #fff;
+	text-align: center;
+}
+h2	{
+	font-family: 'Vidolaka', serif;
+	width: 36em;
+	margin: 0 auto;
+	max-width: 100%
+}
+h3	{
+	width: 36em;
+	margin: 0 auto;
+	max-width: 100%;
+	line-height: 1.3;
+	font-family: 'Vidolaka', serif;
+}
+img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    padding: 1em;
+}
+nav a {
+	color: rgb(220,220,252);
+	display:inline-block;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+}
+footer a {
+	color: #AFD1FC;
+}
+.cta {
+	background:#151619;
+	color:#fff;
+	display:inline-block;
+	padding:1em 2em;
+	text-decoration: none;
+	width: 36em;
+	margin: 0 auto;
+	max-width: 100%;
+	line-height: 1.3;
+}
+#slogan {
+	color: #CAD9E8;
+	font-weight: normal;
+	font-style: none;
+	font-size: 48px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+#intro {
+	background:url(../images/top3.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height: 50vh;
+	padding: 2em 0 0 2em;
+}
+#about {
+	background:#151619;
+}
+
