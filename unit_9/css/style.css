@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Sriracha');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,400,800');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+header	{
+	background-color: #1D2A36;
+}
+body {
+	color: #fff;
+	background:#1D2A36;
+	font-size: 16px;
+	font-family: 'Work Sans', sans-serif;
+}
+div {
+	background-color: #1D2A36;
+} 
+section {
+	background-color: #1D2A36;
+	padding: 10px;
+	font-weight: 200;
+}
+h1 {
+	font-family: 'Sriracha', sans-serif;
+	font-size: 7em;
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 3px black;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+}
+h2	{
+	font-family: 'Sriracha', sans-serif;
+	font-variant: small-caps;
+	font-weight: 200;
+	font-size: 3em;
+	line-height: 1em;
+	padding-bottom: .5em;
+} 
+h3 {
+	font-family: 'Work Sans', sans-serif;
+	font-variant: small-caps;
+	font-weight: 400;
+	font-size: 1.6em;
+}
+h2, h3 {
+	text-shadow: 1px 1px 2px black;
+}
+img{
+    margin: .5em auto;
+    width: 100%;
+}
+nav a {
+	color: #fff;
+	display:inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 25px;
+}
+nav a:link{
+
+}
+nav a:visited{
+	
+}
+nav a:hover{
+	text-decoration: underline;
+
+}
+nav a:active{
+	
+}
+nav {
+	background-color: #DE443B;
+	text-align: center;
+	margin-top: 5px;
+}
+footer a {
+	color: #FFFFFF;
+}
+article {
+	background-color: #345169;
+	padding: 20px;
+}
+footer {
+	background-color: #DE443B; 
+	margin: 5px 0;
+	font-weight: 400;
+	font-size: 1em;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.cta {
+	background: #A4D4BE;
+	color: #363636;
+	display:inline-block;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding:.75em 2em;
+	text-decoration: none;
+	margin: 1px auto;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	border-radius: 15px;
+	max-width: 300px;
+}
+.hikes {
+	margin-bottom: 2em;
+	background-color: #345169;
+	padding: 0;
+}
+#wrapper {
+	width: 90%;
+	margin: auto;
+}
+#bottom {
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+}
+#top_cta {
+	float: right;
+	width: 32%;
+	margin: 5px auto;
+}
+#about {
+	float: left;
+	width: 66%;
+	max-width: 400px;
+}
+#slogan {
+	color: #fff;
+	font-weight: 200;
+	font-style: none;
+	line-height: 0;
+	font-size: 3em;
+	text-shadow: 1px 1px 3px black;
+	padding-bottom: 1.5em;
+}
+#intro {
+	background: url(../images/top3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 1em .5em;
+	text-align: center;
+	margin: 5px auto;
+}
+#left {
+	background-color: #345169;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 49%;
+}
+#right {
+	background-color: #345169;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 49%;
+}
+@media only screen and (max-width: 800px) {
+	#slogan {
+		line-height: 1em;
+		font-size: 2.5em;
+		padding: 20px;
+	}
+	h1 {
+		font-size: 5em;
+	}
+}
+@media only screen and (max-width: 768px) {
+	#left, #right{
+		float: none;
+		width: auto;
+		margin-top: 10px;
+	}	
+	section {
+		padding: 5px;
+	}
+}
+@media only screen and (max-width: 600px) {
+		h1 {
+		line-height: 1em;
+		font-size: 3em;
+	}
+	#slogan {
+		font-size: 2em;
+	}
+	#about {
+		float:none;
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+	}
+	#top_cta, .cta {
+		float:none;
+		display: block;
+		width: 300px;
+		margin: .2em auto;
+	}
+	nav a{
+		display: block;
+		width: 90%
+		margin: 5px;
+		border-bottom:black .2em solid;
+	}	
+@media only screen and (max-width: 400px) {
+		h1 {
+		line-height: 1em;
+		font-size: 3em;
+	}
+	}
+}	
