@@ -19,7 +19,7 @@ div {
 } 
 section {
 	background-color: #1D2A36;
-	padding: 20px;
+	padding: 10px;
 	font-weight: 200;
 }
 h1 {
@@ -87,7 +87,6 @@ article {
 }
 footer {
 	background-color: #DE443B; 
-	padding: 4px;
 	margin: 5px 0;
 	font-weight: 400;
 	font-size: 1em;
@@ -101,16 +100,19 @@ footer {
 	height: 0;
 }
 .cta {
-	background: #C9EBDB;
-	color: #151619;
+	background: #A4D4BE;
+	color: #363636;
 	display:inline-block;
 	text-transform: uppercase;
 	font-weight: bold;
-	padding:1em 2em;
+	padding:.75em 2em;
 	text-decoration: none;
-	margin: 5px;
-	width: 200px;
+	margin: 1px auto;
+	width: 100%;
 	text-align: center;
+	font-size: 1.2em;
+	border-radius: 15px;
+	max-width: 300px;
 }
 .hikes {
 	margin-bottom: 2em;
@@ -122,8 +124,10 @@ footer {
 	margin: auto;
 }
 #bottom {
-	width: 100%;
-	margin: 5px;
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
 }
 #top_cta {
 	float: right;
@@ -133,6 +137,7 @@ footer {
 #about {
 	float: left;
 	width: 66%;
+	max-width: 400px;
 }
 #slogan {
 	color: #fff;
@@ -141,13 +146,13 @@ footer {
 	line-height: 0;
 	font-size: 3em;
 	text-shadow: 1px 1px 3px black;
+	padding-bottom: 1.5em;
 }
 #intro {
 	background: url(../images/top3.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 300px;
-	padding: 3em 0;
+	padding: 1em .5em;
 	text-align: center;
 	margin: 5px auto;
 }
@@ -186,17 +191,35 @@ footer {
 	}
 }
 @media only screen and (max-width: 600px) {
-	h1 {
+		h1 {
 		line-height: 1em;
 		font-size: 3em;
 	}
 	#slogan {
 		font-size: 2em;
 	}
-	#top_cta, #about {
+	#about {
 		float:none;
-		display: inline-block;
+		display: block;
 		width: 100%;
 		margin: 0 auto;
+	}
+	#top_cta, .cta {
+		float:none;
+		display: block;
+		width: 300px;
+		margin: .2em auto;
+	}
+	nav a{
+		display: block;
+		width: 90%
+		margin: 5px;
+		border-bottom:black .2em solid;
+	}	
+@media only screen and (max-width: 400px) {
+		h1 {
+		line-height: 1em;
+		font-size: 3em;
+	}
 	}
 }	
